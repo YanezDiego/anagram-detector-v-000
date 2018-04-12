@@ -12,7 +12,6 @@ class Anagram
     def match(words)
       words.select {|x| x.split("").sort == @nword.split("").sort}
       binding.pry
-      # @word.split(" ").sort || array <== returning ba instead of ab
     end
 
 end
